@@ -103,7 +103,7 @@ class LoginState extends State<LoginPage>{
           ),
           controller: _ctrlPass,
         ),
-        ElevatedButton(onPressed: () => _onPressed(context), child: Text('Validate!'))
+        ElevatedButton(onPressed: () => _onPressed(context), child: Text('Login'))
       ],),
     );
 

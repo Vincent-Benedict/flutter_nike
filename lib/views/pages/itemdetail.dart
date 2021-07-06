@@ -143,7 +143,7 @@ class ItemDetailState extends State<ItemDetailPage>{
                                   controller: _ctrlReview,
                                 ),
 
-                                ElevatedButton(onPressed: () => _onPressed(context), child: Text('Validate!'))
+                                ElevatedButton(onPressed: () => _onPressed(context), child: Text('Input'))
                                 
                               ],
                             ),

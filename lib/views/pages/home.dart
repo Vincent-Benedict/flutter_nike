@@ -66,7 +66,7 @@ class HomePageState extends State<HomePage>{
                 return ['Toggle Theme'].map((e) {
                   return PopupMenuItem(
                       child: TextButton(
-                    child: Text('Toggle Theme'),
+                    child: Text('Dark Theme'),
                     onPressed: () {
                       setState(() {
                         _darkTheme = !_darkTheme;
